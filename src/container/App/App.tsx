@@ -1,5 +1,6 @@
 import Header from "container/Header/Header"
 import Footer from "container/Footer/Footer"
+import Home from "container/Home/Home"
 
 
 
@@ -9,6 +10,7 @@ const App = (props: Props) => {
     return (
         <>
         <Header/>
+        <Home/>
         <Footer/>
         </>
     )
