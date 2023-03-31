@@ -12,7 +12,7 @@ const Header = (props: Props) => {
     return (
         <>
 <Navbar bg="dark" variant="dark" expand="lg" className='nav'>
-    <Container fluid>
+    <Container fluid="xxl">
         <Navbar.Brand href="/">photoday <img src={logo} alt='Logo' style={{width:'30px',height:'30px'}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -22,21 +22,10 @@ const Header = (props: Props) => {
             navbarScroll
         >
             <Nav.Link href="#action1">HOME</Nav.Link>
-            <Nav.Link href="#action2">NEWS</Nav.Link>
-            <NavDropdown title="PHOTO" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action3">#1Photographer</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action4">
-                #2Photographer
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">
-                #3Photographer
-            </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/about">
-            ABOUT
-            </Nav.Link>
+            <Nav.Link href="#action2">Photos</Nav.Link>
+            <Nav.Link href="#action2">Illustrations</Nav.Link>
+            <Nav.Link href="#action2">Vectors</Nav.Link>
+            <Nav.Link href="/about">Videos</Nav.Link>
         </Nav>
         <Form className="d-flex" >
             <Form.Control
