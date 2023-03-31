@@ -1,9 +1,9 @@
-import React from 'react'
+import './Home.scss'
 
 type Props = {}
 
 function Home({}: Props) {
-    return <div>Home</div>
+    return <div className="color">Home</div>
 }
 
 export default Home

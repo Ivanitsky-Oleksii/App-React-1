@@ -1,17 +1,16 @@
-import Header from "container/Header/Header"
-import Footer from "container/Footer/Footer"
-import Home from "container/Home/Home"
-
-
+import Header from 'components/Header/Header'
+import Footer from 'components/Footer/Footer'
+import Home from 'components/Home/Home'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 type Props = {}
 
 const App = (props: Props) => {
     return (
         <>
-        <Header/>
-        <Home/>
-        <Footer/>
+            <Header />
+            <Home />
+            <Footer />
         </>
     )
 }
