@@ -5,14 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import 'components/Header/Header.scss'
 type Props = {}
 
 const Header = (props: Props) => {
     return (
         <>
-<Navbar bg="dark" variant="dark" expand="lg">
+<Navbar bg="dark" variant="dark" expand="lg" className='nav'>
     <Container fluid>
-        <Navbar.Brand href="/"><img src={logo} alt='Logo' style={{width:'50px',height:'50px'}}/> PHOTO DAY </Navbar.Brand>
+        <Navbar.Brand href="/">photoday <img src={logo} alt='Logo' style={{width:'30px',height:'30px'}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -20,9 +21,9 @@ const Header = (props: Props) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">News</Nav.Link>
-            <NavDropdown title="Photo" id="navbarScrollingDropdown">
+            <Nav.Link href="#action1">HOME</Nav.Link>
+            <Nav.Link href="#action2">NEWS</Nav.Link>
+            <NavDropdown title="PHOTO" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">#1Photographer</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action4">
@@ -34,17 +35,17 @@ const Header = (props: Props) => {
             </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/about">
-            About
+            ABOUT
             </Nav.Link>
         </Nav>
-        <Form className="d-flex">
+        <Form className="d-flex" >
             <Form.Control
             type="search"
             placeholder="Search"
             className="me-2"
             aria-label="Search"
             />
-            <Button variant="dark">Search</Button>
+            <Button variant="outline-secondary">Search</Button>
         </Form>
         </Navbar.Collapse>
     </Container>
