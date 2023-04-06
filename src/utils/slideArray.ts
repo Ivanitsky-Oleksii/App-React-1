@@ -10,8 +10,8 @@ export type Product = {
 const slideArray: Product[] = [
     {
         id:1,
-        title: 'це просто текст ;)',
-        descriptions: 'і це також',
+        title: 'ги ги',
+        descriptions: 'ги',
         image1:"image/7.jpg",
         image2:"image/8.jpg",
         image3:"image/9.jpg",
