@@ -4,9 +4,6 @@ type Props = {
     id: number
     title: string
     descriptions: string
-    type: string
-    capacity: string
-    price:number
     image1:string
     image2:string
     image3:string}
@@ -14,9 +11,6 @@ type Props = {
 const SlideItem = ({id,
     title,
     descriptions,
-    type,
-    capacity,
-    price,
     image1,image2,image3}: Props) => {
 return (
     <>
@@ -28,8 +22,8 @@ return (
         alt="First slide"
         />
         <Carousel.Caption>
-        <h3>''</h3>
-        <p></p>
+        <h3>{title}</h3>
+        <p>{descriptions}</p>
         </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -40,8 +34,8 @@ return (
         />
 
         <Carousel.Caption>
-        <h3>''</h3>
-        <p></p>
+        <h3>{title}</h3>
+        <p>{descriptions}</p>
         </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -51,8 +45,8 @@ return (
         alt="Third slide"
         />
         <Carousel.Caption>
-        <h3>''</h3>
-        <p></p>
+        <h3>{title}</h3>
+        <p>{descriptions}</p>
         </Carousel.Caption>
     </Carousel.Item>
     </Carousel>

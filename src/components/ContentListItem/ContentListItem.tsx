@@ -15,17 +15,14 @@ type Props = {
     image1:string}
 
 const ContentlistItem = ({
-    id,
     title,
     descriptions,
     type,
-    capacity,
-    price,
     image1}: Props) => {
 return (
     <>
     <Container >
-    <Card className="bg-dark text-white">
+    <Card className="bg-dark text-white" style={{marginTop:'10px'}}>
     <Card.Img src={image1} alt="image" />
     <Card.ImgOverlay>
         <Card.Title>{title}</Card.Title>
