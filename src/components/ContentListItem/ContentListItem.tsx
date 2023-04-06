@@ -1,6 +1,5 @@
 import 'pages/Home/Home.scss'
 import Container from 'react-bootstrap/Container';
-import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 
 
@@ -25,43 +24,6 @@ const ContentlistItem = ({
     image1}: Props) => {
 return (
     <>
-    {/* <Carousel>
-    <Carousel.Item>
-    <img
-        className="d-block w-100"
-        src=''
-        alt="First slide"
-        />
-        <Carousel.Caption>
-        <h3>''</h3>
-        <p></p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-        <img
-        className="d-block w-100"
-        src=''
-        alt="Second slide"
-        />
-
-        <Carousel.Caption>
-        <h3>''</h3>
-        <p></p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-        <img
-        className="d-block w-100"
-        src=''
-        alt="Third slide"
-        />
-        <Carousel.Caption>
-        <h3>''</h3>
-        <p></p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    </Carousel> */}
-    {/* //////////////////////////////////////////////////////////////////////////////////// */}
     <Container >
     <Card className="bg-dark text-white">
     <Card.Img src={image1} alt="image" />

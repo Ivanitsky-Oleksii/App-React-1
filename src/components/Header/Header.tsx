@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import logo from 'assets/image/twit1.png'
+import logo from 'assets/twit1.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,7 +12,7 @@ const Header = (props: Props) => {
         <>
 <Navbar bg="dark" variant="dark" expand="lg" className='nav'>
     <Container fluid="xxl">
-        <Navbar.Brand href="/">photoday <img src={logo} alt='Logo' style={{width:'30px',height:'30px'}}/></Navbar.Brand>
+        <Navbar.Brand href="/">My Best Tattoo <img src={logo} alt='Logo' style={{width:'30px',height:'30px'}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -20,11 +20,9 @@ const Header = (props: Props) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link href="#action1">HOME</Nav.Link>
-            <Nav.Link href="#action2">Photos</Nav.Link>
-            <Nav.Link href="#action2">Illustrations</Nav.Link>
-            <Nav.Link href="#action2">Vectors</Nav.Link>
-            <Nav.Link href="/about">Videos</Nav.Link>
+            <Nav.Link href="/">HOME</Nav.Link>
+            <Nav.Link href="/photo">Photos</Nav.Link>
+
         </Nav>
         <Form className="d-flex" >
             <Form.Control
@@ -33,7 +31,7 @@ const Header = (props: Props) => {
             className="me-2"
             aria-label="Search"
             />
-            <Button variant="outline-secondary">Search</Button>
+            <Button variant="outline-secondary" href="https//:google.com">Search</Button>
         </Form>
         </Navbar.Collapse>
     </Container>
