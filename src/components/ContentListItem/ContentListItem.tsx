@@ -30,6 +30,7 @@ return (
         <Card.Text>{type}</Card.Text>
     </Card.ImgOverlay>
     </Card>
+
     </Container>
     </>
 )
