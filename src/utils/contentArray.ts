@@ -16,7 +16,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/11.JPG"
+        image1:"image/14.png"
     },
     {
         id:2,
@@ -34,7 +34,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/13.JPG"
+        image1:"image/13.png"
     },
     {
         id:4,
@@ -43,7 +43,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/14.JPG"
+        image1:"image/15.png"
     },
     {
         id:5,
@@ -52,7 +52,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/15.JPG"
+        image1:"image/11.png"
     },
     {
         id:6,
@@ -61,7 +61,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/16.JPG"
+        image1:"image/16.png"
     },
     {
         id:7,
@@ -70,7 +70,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/17.JPG"
+        image1:"image/17.png"
     },
     {
         id:8,
@@ -79,7 +79,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/18.JPG"
+        image1:"image/18.png"
     },
     {
         id:9,
@@ -88,7 +88,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/19.JPG"
+        image1:"image/19.png"
     },
     {
         id:10,
@@ -97,7 +97,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/20.JPG"
+        image1:"image/20.png"
     },
     {
         id:11,
@@ -106,7 +106,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/21.JPG"
+        image1:"image/21.png"
     },
     {
         id:12,
@@ -115,7 +115,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/22.JPG"
+        image1:"image/22.png"
     },
     {
         id:13,
@@ -124,7 +124,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/23.JPG"
+        image1:"image/23.png"
     },
     {
         id:14,
@@ -133,7 +133,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/24.JPG"
+        image1:"image/24.png"
     },
     {
         id:14,
@@ -142,7 +142,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/25.JPG"
+        image1:"image/25.png"
     },
     {
         id:14,
@@ -151,7 +151,7 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1:"image/26.JPG"
+        image1:"image/26.png"
     },
     
 ]
