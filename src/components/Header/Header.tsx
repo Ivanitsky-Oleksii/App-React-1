@@ -10,7 +10,7 @@ const Header = (props: Props) => {
         <>
 <Navbar bg="dark" variant="dark" expand="lg" className='nav'>
     <Container fluid="xxl">
-        <Navbar.Brand>nemuse.tatz</Navbar.Brand>
+        <Navbar.Brand style={{fontSize:'30px'}}>Nemuse.Tatz</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -18,8 +18,8 @@ const Header = (props: Props) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link style={{marginLeft:'70px'}} href="/">HOME</Nav.Link>
-            <Nav.Link href="/price">Price</Nav.Link>
+            <Nav.Link className='home' style={{marginLeft:'70px',color:'red'}} href="/">Home</Nav.Link>
+            <Nav.Link className='home' style={{marginLeft:'30px'}} href="/price">Price</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Container>
