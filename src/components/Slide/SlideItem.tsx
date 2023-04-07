@@ -6,12 +6,12 @@ type Props = {
     descriptions: string
     image1:string
     image2:string
-    image3:string}
+    }
 
 const SlideItem = ({id,
     title,
     descriptions,
-    image1,image2,image3}: Props) => {
+    image1,image2}: Props) => {
 return (
     <>
     <Carousel>
@@ -33,17 +33,6 @@ return (
         alt="Second slide"
         />
 
-        <Carousel.Caption>
-        <h3>{title}</h3>
-        <p>{descriptions}</p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-        <img
-        className="d-block w-100"
-        src={image3}
-        alt="Third slide"
-        />
         <Carousel.Caption>
         <h3>{title}</h3>
         <p>{descriptions}</p>

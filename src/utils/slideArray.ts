@@ -4,7 +4,6 @@ export type Product = {
     descriptions: string
     image1:string
     image2:string
-    image3:string
 }
 
 const slideArray: Product[] = [
@@ -12,9 +11,8 @@ const slideArray: Product[] = [
         id:1,
         title: 'ги ги',
         descriptions: 'ги',
-        image1:"image/7.jpg",
-        image2:"image/8.jpg",
-        image3:"image/9.jpg",
+        image1:"image/s1.png",
+        image2:"image/s2.png",
     },
 ]
 

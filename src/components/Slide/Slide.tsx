@@ -7,13 +7,12 @@ const Slide = (props: Props) => {
 
 return (
     <>
-    {slideArray.map(({id,title,descriptions,image1,image2,image3}) => (<SlideItem 
+    {slideArray.map(({id,title,descriptions,image1,image2}) => (<SlideItem 
                         id={id}
                         title={title}
                         descriptions={descriptions}
                         image1={image1}
                         image2={image2}
-                        image3={image3}
                     />))}
     </>
 )
