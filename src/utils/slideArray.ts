@@ -3,8 +3,8 @@ export type Product = {
     title: string
     descriptions: string
     image1:string
-    image2:string
-}
+    image2:string}
+
 
 const slideArray: Product[] = [
     {
