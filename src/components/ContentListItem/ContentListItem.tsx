@@ -39,12 +39,7 @@ return (
                             natural lead-in to additional content. This content
                             is a little bit longer.
                         </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">
-                            Last updated 3 mins ago
-                        </small>
-                    </Card.Footer>
+                    </Card.Body>  
                 </Card>
                 <Card>
                     <Card.Img
@@ -59,11 +54,6 @@ return (
                             lead-in to additional content.{' '}
                         </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">
-                            Last updated 3 mins ago
-                        </small>
-                    </Card.Footer>
                 </Card>
                 <Card>
                     <Card.Img
@@ -80,11 +70,6 @@ return (
                             equal height action.
                         </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">
-                            Last updated 3 mins ago
-                        </small>
-                    </Card.Footer>
                 </Card>
             </CardGroup>
         </Container>
