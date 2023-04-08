@@ -1,0 +1,23 @@
+.nav{
+    font-size: 35px;
+    font-family: 'Rochester', cursive;
+}
+.home{
+    text-shadow: black 0 1px 4px;
+
+}
+.price{
+    text-shadow: black 0 1px 4px;
+
+}
+.brand{
+    text-shadow: black 0 1px 4px;
+}
+.home:hover{
+    text-shadow: rgb(255, 0, 0) 0 1px 4px;
+    transition: 1.5s ;
+}
+.price:hover{
+    text-shadow: rgb(255, 0, 0) 0 1px 4px;
+    transition: 1.5s;
+}

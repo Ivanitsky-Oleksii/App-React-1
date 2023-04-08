@@ -1,7 +1,8 @@
-
+import 'components/Header/Header.scss'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from 'assets/logo4.png'
 
 
 type Props = {}
@@ -9,9 +10,9 @@ type Props = {}
 const Header = (props: Props) => {
     return (
         <>
-<Navbar bg="dark" variant="dark" expand="lg" className='nav'>
+<Navbar bg="light" variant="light" expand="lg" className='nav' fixed="top">
     <Container fluid="xxl">
-        <Navbar.Brand style={{fontSize:'30px'}}>Nemuse.Tatz</Navbar.Brand>
+        <Navbar.Brand style={{fontSize:'45px'}} className='brand'><img src={logo} style={{width:'170px',height:'190px'}} />nemuse.tatz</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -21,6 +22,7 @@ const Header = (props: Props) => {
         >
             <Nav.Link className='home' href="/">Home</Nav.Link>
             <Nav.Link className='price' href="/price">Price</Nav.Link>
+            <Nav.Link className='price' href="/about">About Me</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Container>

@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import 'components/Slide/SlideItem.scss'
 
 type Props = {
     id: number
@@ -14,7 +15,7 @@ const SlideItem = ({id,
     image1,image2}: Props) => {
 return (
     <>
-    <Carousel>
+    <Carousel className='car'>
     <Carousel.Item>
     <img
         className="d-block w-100"
