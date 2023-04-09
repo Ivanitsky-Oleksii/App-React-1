@@ -11,8 +11,8 @@ const slideArray: Product[] = [
         id:1,
         title: '',
         descriptions: '',
-        image1:"image/s1.png",
-        image2:"image/s2.png",
+        image1:"image/s2.png",
+        image2:"image/s1.png",
     },
 ]
 
