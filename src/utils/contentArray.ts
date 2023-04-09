@@ -1,7 +1,9 @@
 export type Product = {
     id: number
     title: string
-    descriptions: string
+    descriptions1: string
+    descriptions2: string
+    descriptions3: string
     type: string
     capacity: string
     price: number
@@ -13,8 +15,10 @@ export type Product = {
 const contentArray: Product[] = [
     {
         id: 1,
-        title: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quidem, voluptates accusamus veritatis dolore asperiores tempora labore aspernatur ipsa vero iusto voluptate! Facilis ratione amet consequatur recusandae nobis eaque natus.',
-        descriptions: ' bla bla bla ',
+        title: 'Latest works',
+        descriptions1: ' 01/02/2023 ',
+        descriptions2: ' 21/01/2023 ',
+        descriptions3: ' 10/01/2023 ',
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
@@ -24,8 +28,10 @@ const contentArray: Product[] = [
     },
     {
         id: 2,
-        title: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quidem, voluptates accusamus veritatis dolore asperiores tempora labore aspernatur ipsa vero iusto voluptate! Facilis ratione amet consequatur recusandae nobis eaque natus.',
-        descriptions: ' bla bla bla ',
+        title: 'Latest works',
+        descriptions1: ' 31/01/2023 ',
+        descriptions2: ' 22/12/2022 ',
+        descriptions3: ' 15/11/2022 ',
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
@@ -35,8 +41,10 @@ const contentArray: Product[] = [
     },
     {
         id: 3,
-        title: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quidem, voluptates accusamus veritatis dolore asperiores tempora labore aspernatur ipsa vero iusto voluptate! Facilis ratione amet consequatur recusandae nobis eaque natus.',
-        descriptions: ' bla bla bla ',
+        title: 'Latest works',
+        descriptions1: ' 31/01/2023 ',
+        descriptions2: ' 22/12/2022 ',
+        descriptions3: ' 15/11/2022 ',
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
@@ -46,8 +54,10 @@ const contentArray: Product[] = [
     },
     {
         id: 4,
-        title: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quidem, voluptates accusamus veritatis dolore asperiores tempora labore aspernatur ipsa vero iusto voluptate! Facilis ratione amet consequatur recusandae nobis eaque natus.',
-        descriptions: ' bla bla bla ',
+        title: 'Latest works',
+        descriptions1: ' 31/01/2023 ',
+        descriptions2: ' 22/12/2022 ',
+        descriptions3: ' 15/11/2022 ',
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,

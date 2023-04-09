@@ -10,7 +10,9 @@ return (
             ({
                 id,
                 title,
-                descriptions,
+                descriptions1,
+                descriptions2,
+                descriptions3,
                 type,
                 capacity,
                 price,
@@ -21,7 +23,9 @@ return (
                 <ContentListItem
                     id={id}
                     title={title}
-                    descriptions={descriptions}
+                    descriptions1={descriptions1}
+                    descriptions2={descriptions2}
+                    descriptions3={descriptions3}
                     type={type}
                     capacity={capacity}
                     price={price}

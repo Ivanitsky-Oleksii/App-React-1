@@ -2,13 +2,15 @@
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup'
-
+import 'components/ContentListItem/ContentListItem.scss'
 
 
 type Props = {
     id: number
     title: string
-    descriptions: string
+    descriptions1: string
+    descriptions2: string
+    descriptions3: string
     type: string
     capacity: string
     price: number
@@ -19,7 +21,9 @@ type Props = {
 
 const ContentlistItem = ({
     title,
-    descriptions,
+    descriptions1,
+    descriptions2,
+    descriptions3,
     type,
     image1,image2,image3}: Props) => {
 return (
@@ -33,9 +37,9 @@ return (
                         style={{ height: '550px'}}
                     />
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
-                        <Card.Text>
-                            {descriptions}
+                        <Card.Title className='title'>{title}</Card.Title>
+                        <Card.Text className='text'>
+                            {descriptions1}
                         </Card.Text>
                     </Card.Body>  
                 </Card>
@@ -46,9 +50,9 @@ return (
                         style={{ height: '550px' }}
                     />
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
-                        <Card.Text>
-                        {descriptions}
+                        <Card.Title className='title'>{title}</Card.Title>
+                        <Card.Text className='text'>
+                        {descriptions2}
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -59,9 +63,9 @@ return (
                         style={{ height: '550px' }}
                     />
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
-                        <Card.Text>
-                        {descriptions}
+                        <Card.Title className='title'>{title}</Card.Title>
+                        <Card.Text className='text'>
+                        {descriptions3}
                         </Card.Text>
                     </Card.Body>
                 </Card>
