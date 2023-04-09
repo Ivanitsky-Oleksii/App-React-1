@@ -33,11 +33,9 @@ return (
                         style={{ height: '550px'}}
                     />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>{title}</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.
+                            {descriptions}
                         </Card.Text>
                     </Card.Body>  
                 </Card>
@@ -48,10 +46,9 @@ return (
                         style={{ height: '550px' }}
                     />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>{title}</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural
-                            lead-in to additional content.{' '}
+                        {descriptions}
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -62,12 +59,9 @@ return (
                         style={{ height: '550px' }}
                     />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>{title}</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This card has
-                            even longer content than the first to show that
-                            equal height action.
+                        {descriptions}
                         </Card.Text>
                     </Card.Body>
                 </Card>
