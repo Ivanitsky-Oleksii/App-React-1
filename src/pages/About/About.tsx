@@ -2,7 +2,11 @@
 type Props = {}
 
 const About = (props: Props) => {
-    return <div>About</div>
+    return (
+    <>
+    
+    </>
+    )
 }
 
 export default About
