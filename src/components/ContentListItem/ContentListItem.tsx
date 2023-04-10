@@ -33,9 +33,7 @@ return (
                 <Card >
                     <Card.Img
                         variant="top"
-                        src={image1}
-                        style={{ height: '550px'}}
-                    />
+                        src={image1}/>
                     <Card.Body>
                         <Card.Title className='title'>{title}</Card.Title>
                         <Card.Text className='text'>
@@ -46,9 +44,7 @@ return (
                 <Card>
                     <Card.Img
                         variant="top"
-                        src={image2}
-                        style={{ height: '550px' }}
-                    />
+                        src={image2}/>
                     <Card.Body>
                         <Card.Title className='title'>{title}</Card.Title>
                         <Card.Text className='text'>
@@ -59,9 +55,7 @@ return (
                 <Card>
                     <Card.Img
                         variant="top"
-                        src={image3}
-                        style={{ height: '550px' }}
-                    />
+                        src={image3}/>
                     <Card.Body>
                         <Card.Title className='title'>{title}</Card.Title>
                         <Card.Text className='text'>

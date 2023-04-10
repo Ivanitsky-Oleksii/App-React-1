@@ -48,9 +48,9 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1: 'image/20.png',
-        image2: 'image/21.png',
-        image3: 'image/22.png',
+        image1: 'image/21.png',
+        image2: 'image/22.png',
+        image3: 'image/23.png',
     },
     {
         id: 4,
@@ -61,9 +61,9 @@ const contentArray: Product[] = [
         type: 'wowowowoowow',
         capacity: '',
         price: 1200,
-        image1: 'image/23.png',
+        image1: 'image/20.png',
         image2: 'image/24.png',
-        image3: 'image/25.png',
+        image3: 'image/26.png',
     }
 ]
 
