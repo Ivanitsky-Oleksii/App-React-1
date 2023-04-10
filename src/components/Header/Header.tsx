@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from 'assets/logo4.png'
-
+import { Link } from 'react-router-dom';
+import Menu from 'components/Menu/Menu'
 
 type Props = {}
 
@@ -20,9 +21,7 @@ const Header = (props: Props) => {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link className='home' href="/">Home</Nav.Link>
-            <Nav.Link className='price' href="/price">Price</Nav.Link>
-            <Nav.Link className='price' href="/about">About Me</Nav.Link>
+            <Menu/>
             </Nav>
         </Navbar.Collapse>
     </Container>

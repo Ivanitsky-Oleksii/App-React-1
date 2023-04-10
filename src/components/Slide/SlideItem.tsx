@@ -7,9 +7,11 @@ type Props = {
     descriptions: string
     image1: string
     image2: string
+    image3: string
+
 }
 
-const SlideItem = ({ id, title, descriptions, image1, image2 }: Props) => {
+const SlideItem = ({ id, title, descriptions, image1, image2,image3}: Props) => {
     return (
         <>
             <Carousel className='car'>
@@ -31,7 +33,15 @@ const SlideItem = ({ id, title, descriptions, image1, image2 }: Props) => {
                 <Carousel.Caption>
                     </Carousel.Caption>
                 </Carousel.Item>
-                    
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={image3}
+                        alt="Second slide"
+                    />
+                <Carousel.Caption>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </>
     )
