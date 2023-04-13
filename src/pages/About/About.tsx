@@ -1,13 +1,8 @@
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
-import Collapse from 'react-bootstrap/Collapse'
-import { useState } from 'react'
 import 'pages/About/About.scss'
 
 type Props = {}
 
 const About = (props: Props) => {
-    const [open, setOpen] = useState(false)
     return (
         <div className="about-btn">
     <h3 className='text-1'>Hello everybody!</h3>
