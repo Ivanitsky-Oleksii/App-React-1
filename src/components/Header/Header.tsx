@@ -10,7 +10,7 @@ type Props = {}
 const Header = (props: Props) => {
     return (
         <>
-<Navbar bg="light" variant="light" expand="lg" className='nav' fixed="top">
+<Navbar bg="light" variant="light" expand="lg" className='nav'>
     <Container fluid="xxl">
         <Navbar.Brand style={{fontSize:'45px'}} className='brand'><img src={logo} style={{width:'160px',height:'190px'}} alt='logo'/>nemuse.tatz</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
