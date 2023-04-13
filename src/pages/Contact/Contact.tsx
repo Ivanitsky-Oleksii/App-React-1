@@ -26,8 +26,8 @@ const Contact = (props: Props) => {
                     <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
                 </ListGroup>
                 <Card.Body>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
+                    <Card.Link href="https://www.instagram.com/nemuse.tatz/"><img style={{width:'50px',height:'50px'}} src='image/inst.png'alt='inst'></img></Card.Link>
+                    <Card.Link href="https://t.me/ellisday"><img style={{width:'50px',height:'50px'}} src='image/teleg.png'alt='teleg'></img></Card.Link>
                 </Card.Body>
             </Card>
         </div>
